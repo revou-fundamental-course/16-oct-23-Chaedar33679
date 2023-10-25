@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-logo">
+            <img src="./css/assets/JKT48_logo.png" alt="JKT48_logo">
+        </div>
+
+        <nav class="nav">
+            <a class="nav-item">Home</a>
+            <a class="nav-item">Contact</a>
+            <a class="nav-item">About</a>
+            <a href="#Oshi"class="nav-item">Seputar Oshi</a>
+        </nav>
+    </header>
+    <section class="section">
+        <div class="Greeting">
+            <h1 >Hi semua selamat datang di website baru JKT-48</h1>
+            <p >Siapa nih yang kepo sama oshinya buruan cek di website ini</p>
+        </div>
+    </section>
+    <section id="Oshi" class="hardquarter">
+        <h1>Our Oshi</h1>
+        <div class="hq-item">
+            <div class="Circle"></div>
+            <div class="Circle2"></div>
+            <div class="Circle3"></div>
+        </div>
+        <div class="hq-item">
+            <p class="hq-text">Greesel Adhelia</p>
+            <p class="hq-text">Shani Indira Natio</p>
+            <p class="hq-text">Azizi Assadel</p>
+        </div>
+    </section>
+    <section class="form">
+        <div class="form-text">
+            <h1>Massage us</h1>
+            <h2>Hasil Regristasi</h2>
+        </div>
+        <div class="form-section">
+            <div class="form-left">
+                <form>
+    
+                    <table>
+                        <td>Name</td>
+                        <td>:</td>
+                        <td>
+                            <input id="ismun"name="ismun" type="text" placeholder="ismun"><br><br>
+                        </td>
+                    </table>
+    
+                    <table>
+                        <td>Oshi Pilihan</td>
+                        <td>:</td>
+                        <td>
+                            <select id="oshi"name="oshi">
+                                <option value="Gresella">Gresella Adhelia</option>
+                                <option value="Azizi">Azizi Assadel</option>
+                                <option value="Shani">Shani Indira Natio</option>
+                            </select><br><br>    
+                        </td>
+                    </table>
+    
+                    <table>
+                        <td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td>
+                            <input id="tanggalLahir"name="tanggalLahir" type="date" placeholder="tanggalLahir"><br><br>
+                        </td>
+                    </table>
+    
+                    <button type="button" onclick="validateAndSubmit()">Submit</button>
+                    
+                </form>
+            </div>
+                <div id="hasilRegristasiBox"></div>
+            
+        </div>
+        </div>
+           
+        
+    </section>
+    <footer class="footer">
+        <center>
+            <p class="footer-text">made by fans JKT 48</p>
+        </center>
+    </footer>
+    <script src="jscript.js"></script>
+</body>
+</html>
