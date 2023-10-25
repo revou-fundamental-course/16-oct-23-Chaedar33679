@@ -1,0 +1,137 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(175, 139, 209);
+}
+.header{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 2em;
+    border-bottom: 1px solid darkgrey;
+}
+.nav-logo img{
+    max-height: 40px;
+}
+.nav{
+    display: flex;
+}
+.nav-item{
+    padding: 2px 1em;
+    border: 0.5px solid black;
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+.nav-item:hover{
+    background-color: lightgoldenrodyellow;
+    color: lightslategray;
+}
+.section{
+    border-bottom: 1px solid black ;
+    background-image:url('./assets/download.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.Greeting{
+    padding-top: 2em;
+    padding-left: 5em;
+}
+.Greeting h1,p{
+    color: white;
+}
+.hardquarter{
+    padding: 3em;
+   
+}
+.Circle{
+    height: 150px;
+    width: 150px;
+    background-image: url('./assets/Greesel\ JKT48.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    border:  1px solid black;
+    border-radius: 50%;
+}
+.Circle2{
+    height: 150px;
+    width: 150px;
+    background-image: url('./assets/Shani\ Indira\ Natio\ \(Shani\ JKT48\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    border:  1px solid black;
+    border-radius: 50%;
+}
+.Circle3{
+    height: 150px;
+    width: 150px;
+    background-image: url('./assets/zee.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    border:  1px solid black;
+    border-radius: 50%;
+}
+.hq-item{
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    background-color: aliceblue;
+    border-top:  1px solid black;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+}
+.footer-text{
+    color: black;
+    font-size: small;
+}
+.form-text{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 300px;
+    padding-left: 10px;
+}
+.form{
+    padding: 3em;
+}
+.form-section{
+    display: flex;
+    justify-content: space-between;
+}
+.form-left{
+    padding-right: 100px;
+    width: 50%;
+}
+#hasilRegristasiBox{
+    background-color: aliceblue;
+    margin-right: 300px;
+    border:  1px solid black;
+    padding-left: 10px;
+    width: 50%;
+    text-align: left;
+}
+button{
+    background-color: #000;
+    color: #f3ecec;
+    width: 220px;
+    height: 40px;
+   
+}
+.hq-text{
+    color: black;
+}
